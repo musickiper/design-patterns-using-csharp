@@ -38,13 +38,13 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Pattern\ConcreteCreator1.cs" />
-        <Compile Include="Pattern\ConcreteCreator2.cs" />
-        <Compile Include="Pattern\ConcreteProduct1.cs" />
-        <Compile Include="Pattern\ConcreteProduct2.cs" />
-        <Compile Include="Pattern\Creator.cs" />
-        <Compile Include="Pattern\FactoryTest.cs" />
-        <Compile Include="Pattern\IProduct.cs" />
+        <Compile Include="Pattern\Factory\ConcreteCreator1.cs" />
+        <Compile Include="Pattern\Factory\ConcreteCreator2.cs" />
+        <Compile Include="Pattern\Factory\ConcreteProduct1.cs" />
+        <Compile Include="Pattern\Factory\ConcreteProduct2.cs" />
+        <Compile Include="Pattern\Factory\Creator.cs" />
+        <Compile Include="Pattern\Factory\FactoryTest.cs" />
+        <Compile Include="Pattern\Factory\IProduct.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
