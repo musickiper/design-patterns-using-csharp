@@ -38,8 +38,16 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Pattern\AbstractFactory.cs" />
-        <Compile Include="Pattern\Factory.cs" />
+        <Compile Include="Pattern\AbstractFactoryTest.cs" />
+        <Compile Include="Pattern\ConcreteFactory1.cs" />
+        <Compile Include="Pattern\ConcreteFactory2.cs" />
+        <Compile Include="Pattern\ConcreteProductA1.cs" />
+        <Compile Include="Pattern\ConcreteProductA2.cs" />
+        <Compile Include="Pattern\ConcreteProductB1.cs" />
+        <Compile Include="Pattern\ConcreteProductB2.cs" />
+        <Compile Include="Pattern\IAbstractFactory.cs" />
+        <Compile Include="Pattern\IAbstractProductA.cs" />
+        <Compile Include="Pattern\IAbstractProductB.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
