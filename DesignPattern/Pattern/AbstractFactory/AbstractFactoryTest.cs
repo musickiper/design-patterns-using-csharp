@@ -1,6 +1,6 @@
 using System;
 
-namespace DesignPattern.Pattern
+namespace DesignPattern.Pattern.AbstractFactory
 {
     // The client code works with factories and products only through abstract
     // types: AbstractFactory and AbstractProduct. This lets you pass any
