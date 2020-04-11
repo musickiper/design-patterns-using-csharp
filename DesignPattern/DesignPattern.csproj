@@ -38,6 +38,12 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\Observer\ConcreteObserverA.cs" />
+        <Compile Include="Pattern\Observer\ConcreteObserverB.cs" />
+        <Compile Include="Pattern\Observer\IObserver.cs" />
+        <Compile Include="Pattern\Observer\ISubject.cs" />
+        <Compile Include="Pattern\Observer\ObserverTest.cs" />
+        <Compile Include="Pattern\Observer\Subject.cs" />
         <Compile Include="Pattern\Iterator\AlphabeticalOrderIterator.cs" />
         <Compile Include="Pattern\Iterator\Iterator.cs" />
         <Compile Include="Pattern\Iterator\IteratorAggregate.cs" />
