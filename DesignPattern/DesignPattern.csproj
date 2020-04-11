@@ -38,6 +38,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\Strategy\ConcreteStrategyA.cs" />
+        <Compile Include="Pattern\Strategy\ConcreteStrategyB.cs" />
+        <Compile Include="Pattern\Strategy\Context.cs" />
+        <Compile Include="Pattern\Strategy\IStrategy.cs" />
+        <Compile Include="Pattern\Strategy\StrategyTest.cs" />
         <Compile Include="Pattern\Singleton\SingletonClass.cs" />
         <Compile Include="Pattern\Singleton\SingletonTest.cs" />
         <Compile Include="Pattern\ProtoType\ConcreteProtoType1.cs" />
