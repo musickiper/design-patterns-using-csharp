@@ -38,6 +38,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\Facade\Client.cs" />
+        <Compile Include="Pattern\Facade\Facade.cs" />
+        <Compile Include="Pattern\Facade\FacadeTest.cs" />
+        <Compile Include="Pattern\Facade\Subsystem1.cs" />
+        <Compile Include="Pattern\Facade\Subsystem2.cs" />
         <Compile Include="Pattern\Adapter\Adaptee.cs" />
         <Compile Include="Pattern\Adapter\Adapter.cs" />
         <Compile Include="Pattern\Adapter\AdapterTest.cs" />
