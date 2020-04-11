@@ -38,6 +38,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\Adapter\Adaptee.cs" />
+        <Compile Include="Pattern\Adapter\Adapter.cs" />
+        <Compile Include="Pattern\Adapter\AdapterTest.cs" />
+        <Compile Include="Pattern\Adapter\ITarget.cs" />
         <Compile Include="Pattern\AbstractFactory\AbstractFactoryTest.cs" />
         <Compile Include="Pattern\AbstractFactory\ConcreteFactory1.cs" />
         <Compile Include="Pattern\AbstractFactory\ConcreteFactory2.cs" />
