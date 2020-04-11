@@ -38,6 +38,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\Iterator\AlphabeticalOrderIterator.cs" />
+        <Compile Include="Pattern\Iterator\Iterator.cs" />
+        <Compile Include="Pattern\Iterator\IteratorAggregate.cs" />
+        <Compile Include="Pattern\Iterator\IteratorTest.cs" />
+        <Compile Include="Pattern\Iterator\WordsCollection.cs" />
         <Compile Include="Pattern\Factory\ConcreteCreator1.cs" />
         <Compile Include="Pattern\Factory\ConcreteCreator2.cs" />
         <Compile Include="Pattern\Factory\ConcreteProduct1.cs" />
