@@ -38,6 +38,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\ProtoType\ConcreteProtoType1.cs" />
+        <Compile Include="Pattern\ProtoType\ConcreteProtoType2.cs" />
+        <Compile Include="Pattern\ProtoType\ProtoType.cs" />
+        <Compile Include="Pattern\ProtoType\ProtoTypeFactory.cs" />
+        <Compile Include="Pattern\ProtoType\ProtoTypeTest.cs" />
         <Compile Include="Pattern\Observer\ConcreteObserverA.cs" />
         <Compile Include="Pattern\Observer\ConcreteObserverB.cs" />
         <Compile Include="Pattern\Observer\IObserver.cs" />
