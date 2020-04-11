@@ -43,6 +43,20 @@
         <Compile Include="Pattern\Facade\FacadeTest.cs" />
         <Compile Include="Pattern\Facade\Subsystem1.cs" />
         <Compile Include="Pattern\Facade\Subsystem2.cs" />
+        <Compile Include="Pattern\Adapter\Adaptee.cs" />
+        <Compile Include="Pattern\Adapter\Adapter.cs" />
+        <Compile Include="Pattern\Adapter\AdapterTest.cs" />
+        <Compile Include="Pattern\Adapter\ITarget.cs" />
+        <Compile Include="Pattern\AbstractFactory\AbstractFactoryTest.cs" />
+        <Compile Include="Pattern\AbstractFactory\ConcreteFactory1.cs" />
+        <Compile Include="Pattern\AbstractFactory\ConcreteFactory2.cs" />
+        <Compile Include="Pattern\AbstractFactory\ConcreteProductA1.cs" />
+        <Compile Include="Pattern\AbstractFactory\ConcreteProductA2.cs" />
+        <Compile Include="Pattern\AbstractFactory\ConcreteProductB1.cs" />
+        <Compile Include="Pattern\AbstractFactory\ConcreteProductB2.cs" />
+        <Compile Include="Pattern\AbstractFactory\IAbstractFactory.cs" />
+        <Compile Include="Pattern\AbstractFactory\IAbstractProductA.cs" />
+        <Compile Include="Pattern\AbstractFactory\IAbstractProductB.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
