@@ -38,6 +38,8 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Pattern\Singleton\SingletonClass.cs" />
+        <Compile Include="Pattern\Singleton\SingletonTest.cs" />
         <Compile Include="Pattern\ProtoType\ConcreteProtoType1.cs" />
         <Compile Include="Pattern\ProtoType\ConcreteProtoType2.cs" />
         <Compile Include="Pattern\ProtoType\ProtoType.cs" />
